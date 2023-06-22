@@ -1,0 +1,10 @@
+cd .\flask-server\
+python -m venv venv
+.\venv\Scripts\activate
+pip install flask
+pip install flask_cors
+pip install ultralytics
+pip install cvzone
+pip install scikit-image
+pip install filterpy
+python server.py
